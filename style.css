@@ -13,17 +13,52 @@ body {
 .main {
     width: 100%;
     height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.inner-main {
+    height: 90vh;
     display: flex;
     justify-content: center;
+}
+
+.buttons {
+    height: 10vh;
 }
 
 #on {
     display: none;
     cursor: pointer;
-
 }
 
 #off {
     cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+#onbtn {
+    padding: 0.5vw 2vw;
+    font-size: 1vw;
+    border: none;
+    background-color: #50727B;
+    color: #fff;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#offbtn {
+    padding: 0.5vw 2vw;
+    font-size: 1vw;
+    border: none;
+    background-color: #50727B;
+    color: #fff;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
 }
 
