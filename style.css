@@ -50,6 +50,7 @@ body {
     color: #fff;
     border-radius: 6px;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
 #offbtn {
@@ -60,5 +61,7 @@ body {
     color: #fff;
     border-radius: 6px;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    
 }
 
